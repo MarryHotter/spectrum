@@ -1,7 +1,3 @@
-.scrollbarGhostHairline__00100.scrollbar_b61b2b.hljs{
-    display: none;
-}
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
