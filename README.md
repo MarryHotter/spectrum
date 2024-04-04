@@ -1,4 +1,4 @@
-# spectrum
+# Spectrum
 Features:
 
 Illuminated Interface: The theme gives off a soft glow that adds a magical touch to every aspect.
