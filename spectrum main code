@@ -150,6 +150,13 @@
 fix
 */
 
+.vc-m-top-16{
+        box-shadow: none!important;
+    border: none!important;
+    background: none!important;
+    backdrop-filter: none!important;
+}
+
 .button__581d0.lookFilled__950dd.colorRed__5a617.sizeSmall_da7d10.grow__4c8a4:hover{
  background-color: red;
  border: 1px solid red; 
