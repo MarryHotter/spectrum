@@ -2,7 +2,7 @@
 
 :root {
   --accent-hue: 263;
-  --background: url(https://i.imgur.com/wJPeIdS.png);
+  --background: url(https://i.imgur.com/gM4lB7i.jpeg);
   --linear: linear-gradient(to right, #ff0000, #6200ff);
   --linear-transparent: linear-gradient(to right, #ff000071, #4c00ff65);
   --linear-transparent-strong: linear-gradient(to right, #ff00001f, #4c00ff1c);
