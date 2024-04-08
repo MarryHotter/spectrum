@@ -378,8 +378,8 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
 
 .border_e782de.speaking_b20122{
   border: 2px solid hsl(var(--accent-hsl)); /* Hier ändern Sie die Farbe: hsl(Hue, Saturation, Lightness) */
-  box-shadow: inset 0px 0px 4px 2px hsla(var(--accent-hue), 100%, 50%, 0.8),
-                0px 0px 5px 2px hsla(var(--accent-hue), 150%, 50%, 0.8);
+  box-shadow: inset 0px 0px 7px 3px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 7px 3px hsla(var(--accent-hue), 150%, 50%, 0.8);
 }
 
 .root__46d4f.elevationHigh__31684{
