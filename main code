@@ -307,7 +307,8 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
   border-radius: 10px; 
 box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
   backdrop-filter: blur(6px);
-
+position: absolute;
+min-width: 740px;
 }
 
 .scroller__4ae44.thin__62e51.scrollerBase__65223{
