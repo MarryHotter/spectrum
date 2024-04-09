@@ -147,7 +147,12 @@
 /*
 fix
 */
-
+.vc-settings-card.vc-text-selectable.cardPrimary__1ee6a.card__4dc22{
+    background: transparent!important;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none ;
+}
 .container_b92032{
     background: transparent;
 }
