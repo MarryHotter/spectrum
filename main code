@@ -147,6 +147,15 @@
 /*
 fix
 */
+
+.chat__52833.background__2fff8{
+    background: transparent;
+}
+
+.title_c49453.background__2fff8.forumOrHome__8b95a.container__26baa.themed_b152d4{
+    background: transparent;
+}
+
 .vc-settings-card.vc-text-selectable.cardPrimary__1ee6a.card__4dc22{
     background: transparent!important;
     border: none;
