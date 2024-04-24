@@ -148,6 +148,14 @@
 fix
 */
 
+.container_cff83e{
+ background-color: rgba(0, 0, 0, 0.443);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
 .userPopoutOuter_d67f56.userProfileOuter__35e59.userProfileOuterUnthemed__9741c.theme-dark{
      border: 1px solid hsl(var(--accent-hsl)); 
   border-radius: 10px; 
