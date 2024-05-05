@@ -2874,7 +2874,7 @@ type Box
   z-index: 2;
 }
 
- .scrollableContainer_ff917f.themedBackground__3a4c0.webkit__8d35a{
+ .scrollableContainer_ff917f.themedBackground__3a4c0{
   position: relative;
   border-radius: 10px;
   border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
