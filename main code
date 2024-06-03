@@ -148,6 +148,15 @@ tip__6e299::before {
 fix
 */
 
+.scroller__18a89.thin__62e51.scrollerBase__65223{
+ background-color: rgba(0, 0, 0, 0.443);
+ border: 1px solid hsl(var(--accent-hsl)); 
+ background: var(--linear-transparent);
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+
 .scroller__6ea8b.thin__62e51.scrollerBase__65223.fade__8a426{
  background-color: rgba(0, 0, 0, 0.443);
  border: 1px solid hsl(var(--accent-hsl)); 
