@@ -148,6 +148,13 @@ tip__6e299::before {
 fix
 */
 
+.banner__6d414.popoutBanner__3fbe8{
+  position: absolute;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: -5px;
+}
+
+
 .scroller__18a89.thin__62e51.scrollerBase__65223{
  background-color: rgba(0, 0, 0, 0.443);
  border: 1px solid hsl(var(--accent-hsl)); 
@@ -194,6 +201,12 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
 }
 .body__616e6.inset__61d5b{
  background: transparent;
+}
+
+.animatorLeft_f985f4.translate__02873.didRender__7e24c{
+     border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
 }
 
 .container_cff83e{
@@ -2427,7 +2440,6 @@ background: rgba(0, 0, 0, 0);
 
 
 .userPopoutInner_ac0960.userProfileInner__8ff35.userProfileInnerThemedNonPremium_b64fb4::before{
-
   margin-bottom: px;
   margin-left: 4px;
   backdrop-filter: blur(6px);
@@ -2435,6 +2447,7 @@ background: rgba(0, 0, 0, 0);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   scale: 1.025;
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
 }
 
 
@@ -2511,7 +2524,7 @@ Hover over Text for more visibility
 scale fixing
 */
 
-.banner__6d414.popoutBanner__9f5b9{
+.banner__6d414.popoutBanner__3fbe8{
 scale: 1;
 }
 
