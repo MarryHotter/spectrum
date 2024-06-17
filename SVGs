@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="2000" height="2000" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="clip">
+            <path d="M 8 0 H 1222 A 8 8 0 0 1 1230 8 V 38 A 8 8 0 0 1 1222 46 H 8 A 8 8 0 0 1 0 38 V 8 A 8 8 0 0 1 8 0 Z" fill="white"/>
+        </clipPath>
+    </defs>
+    <rect width="100%" height="100%" fill="black"/>
+    <rect width="100%" height="100%" fill="white" clip-path="url(#clip)"/>
+</svg>
