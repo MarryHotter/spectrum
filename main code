@@ -148,6 +148,11 @@ tip_e40c16::before {
 fix
 */
 
+.imageWrapper_d4597d.image_aee8c6{
+ border: 1px solid hsl(var(--accent-hsl)); 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
 .root_a5ea57.tile_dc5fc4{
  background: var(--linear-transparent-strong);
  border: 1px solid hsl(var(--accent-hsl)); 
