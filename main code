@@ -984,7 +984,7 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
 
 }
 
-.popout_f6639d.thin_c49869.scrollerBase_c49869{
+.popout_f6639d.none_c49869.scrollerBase_c49869{
     background: var(--linear);
 
 }
@@ -1204,9 +1204,10 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
 .secondaryButton_acae5d.button_dd4f85.lookFilled_dd4f85.colorPrimary_dd4f85.sizeXlarge__6885c.grow_dd4f85{
   background-color: hsl(var(--accent-hue), 100%, 50%);
 }
-.popout_f6639d.none_eed6a8.scrollerBase_eed6a8{
+
+.popout_f6639d.none_c49869.scrollerBase_c49869{
   position: relative;
-  background: var(--linear-transparent);
+  background: transparent;
   z-index: 5;
   scale: 1;
   margin-right: 10px;
@@ -2105,7 +2106,6 @@ background: rgba(0, 0, 0, 0);
 .menu_ad5fac:before {
   display: none;
 }
-
 
 
 .theme-dark.layer_cd0de5::before{
