@@ -126,7 +126,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--linear); 
+  background: var(--linear-tranparent); 
   border-radius: 0 0 14px 14px;
   z-index: 999;
   box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
