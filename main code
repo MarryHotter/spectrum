@@ -1193,12 +1193,6 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
   background: none;
 }
 
-.autocomplete_f23da8.autocomplete_bea0d0.autocompleteAttached_bea0d0{
-    background: var(--linear-transparent);
-    background-color: #000000b7;
-
-}
-
 .clipContainer_b11c5e{
     background: var(--linear-transparent);
     background-color: #000000b7;
@@ -2486,7 +2480,6 @@ some Backgrounds
 */
 .directoryModal-YJsOMv,
 .keyboardShortcutsModal_ad95dc,
-.autocomplete_f23da8,
 .root_f906dd:not(.carouselModal-1eUFoq),
 .scroller_f2bfbb {
     background-color: rgba(0, 0, 0, 0.9) !important;
@@ -2516,10 +2509,13 @@ some Backgrounds
 }
 .directoryModal-YJsOMv,
 .keyboardShortcutsModal_ad95dc,
-.autocomplete_f23da8,
 .root_f906dd:not(.carouselModal-1eUFoq),
 .scroller_f2bfbb {
     background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.autocomplete_f23da8{
+  background: #0000001a;
 }
 
 .background_e85cee{
