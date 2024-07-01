@@ -109,12 +109,12 @@
 
 
 /*Update Notify*/
-.tipTitle_e40c16{
+tipTitle_e40c16{
    background-color: rgba(0, 0, 0, 0.02); 
   content: "Latest Theme Update:";
 }
 
-.tip_e40c16::before {
+tip_e40c16::before {
   content: "Maintainence! Discord broke deep backdrop code, layout currenly in provisionally";
   position: absolute;
   height: 100px;
@@ -148,6 +148,136 @@
 /*
 fix
 */
+
+.userProfileOuterUnthemed_c69a7b.theme-light {
+  --textarea-color: 0,0,0;
+  --textarea-text-color: #333;
+  --textarea-placeholder-color: #666;
+  --background-modifier-selected: rgba(0,0,0,0.125);
+}
+
+.userProfileOuterThemed_c69a7b {
+  --card-color: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-6));
+}
+.userProfileOuterThemed_c69a7b .lookFilled_dd4f85 {
+  --button-background: var(--profile-gradient-button-color);
+  --button-text-color: var(--white-500);
+  --accent-button-action: var(--white-500);
+}
+
+.userProfileOuter_c69a7b {
+  background-color: transparent;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.userProfileOuter_c69a7b:before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border-radius: var(--popout-radius);
+  box-shadow: var(--popout-shadow);
+  backdrop-filter: blur(var(--popout-blur));
+  pointer-events: none;
+  z-index: -1;
+}
+.userProfileOuter_c69a7b * {
+  text-shadow: none;
+}
+.userProfileOuter_c69a7b svg {
+  filter: none;
+}
+.userProfileOuter_c69a7b .menus_d4e7c2 > .menu_d90b3d:before {
+  display: none;
+}
+
+.userProfileInner_c69a7b {
+  border-radius: calc(var(--popout-radius) / 1.25);
+}
+.userProfileInner_c69a7b:before {
+  border-radius: inherit;
+}
+.userProfileInner_c69a7b .wrapper_c51b4e circle {
+  fill: var(--profile-avatar-border-color);
+}
+.userProfileInner_c69a7b .inputWrapper_f8bc55 {
+  border-radius: 18px;
+  border: none;
+}
+.userProfileInner_c69a7b .input_f8bc55::-webkit-input-placeholder {
+  color: var(--textarea-placeholder-color);
+}
+
+.wrapper-C1y4Sz {
+  border-radius: calc(var(--popout-radius) / 1.25) calc(var(--popout-radius) / 1.25) 0 0;
+}
+
+.banner_c3e427 {
+  border-radius: calc(var(--popout-radius) / 1.25) calc(var(--popout-radius) / 1.25) 0 0;
+}
+
+.container_e5a42d {
+  padding: 2px;
+  background-color: var(--card-color) !important;
+  border-radius: 12px;
+  border: none;
+}
+
+.overlayBackground_c69a7b {
+  border-radius: calc(var(--popout-radius) / 1.25);
+}
+
+.biteSizeInnerThemed_c69a7b {
+  padding-bottom: 0;
+}
+
+.statusBubbleOuter_d0a252 {
+  border: none !important;
+}
+.statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after {
+  border: inherit !important;
+}
+
+.custom-theme-background .menu_d90b3d {
+  border: none;
+}
+
+.role_f9575e, .role_c6b11b {
+  background-color: var(--background-modifier-selected);
+  border-radius: 11px;
+  border: none;
+}
+
+.note_c90ad7 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.note_c90ad7 .input_f8bc55 {
+  height: unset;
+  font-size: 14px;
+  line-height: 16px;
+}
+.note_c90ad7 .textarea_dde0a8 {
+  padding: 4px 10px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.note_c90ad7 .textarea_dde0a8::-webkit-input-placeholder {
+  color: var(--textarea-placeholder-color);
+}
+.note_c90ad7 .textarea_dde0a8:focus {
+  background-color: rgba(var(--textarea-color), var(--textarea-alpha-focus));
+}
+
+/* USER POPOUT -> STATUS AREA */
+.menu-KSaHL1:before {
+  display: none;
+}
+
 
 .userPopoutInner_c69a7b.userProfileInner_c69a7b.biteSizeInnerThemed_c69a7b{
  background: transparent;
@@ -2105,8 +2235,6 @@ background: rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
 }
 
-
-
 .menu_d90b3d:before {
   position: absolute;
   content: " ";
@@ -2114,19 +2242,17 @@ background: rgba(0, 0, 0, 0);
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background: #00000025;
   border-radius: var(--popout-radius);
   box-shadow: var(--popout-shadow);
-  backdrop-filter: blur(px); /* TO BE FIXED */
+  backdrop-filter: blur(var(--popout-blur));
   pointer-events: none;
   z-index: -1;
-    background: var(--linear-transparent-strong);
 }
 
 .menu_ad5fac:before {
   display: none;
 }
-
 
 .theme-dark.layer_cd0de5::before{
 backdrop-filter: blur(px);
