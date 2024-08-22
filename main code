@@ -2245,7 +2245,7 @@ background: rgba(0, 0, 0, 0);
   height: 100%;
   top: 0;
   left: 0;
-  background: #00000025;
+  background: #00000053!important;
   border-radius: var(--popout-radius);
   box-shadow: var(--popout-shadow);
   backdrop-filter: blur(var(--popout-blur));
