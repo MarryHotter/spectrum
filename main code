@@ -149,6 +149,12 @@ tip_e40c16::before {
 fix
 */
 
+.staticButton_ef18ee.centerButton_ef18ee.colorable_ef18ee.red_ef18ee.button_dd4f85.lookBlank_dd4f85.colorBrand_dd4f85{
+  scale: 0.9;
+  margin-left: -3px;
+  margin-top: -3px;
+}
+
 .userProfileOuterUnthemed_c69a7b {
   --profile-gradient-primary-color: var(--popout-color) !important;
   --profile-gradient-secondary-color: var(--popout-color) !important;
