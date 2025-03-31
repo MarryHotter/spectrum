@@ -1,4 +1,3 @@
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -149,6 +148,74 @@ tip_a2f514::before {
 /*
 fix
 */
+
+.visual-refresh .channelChatWrapper_cb9592, .visual-refresh .wrapper_cb9592{
+  background: transparent;
+}
+
+.visual-refresh .container__2637a{
+  background: transparent;
+}
+
+.visual-refresh .sidebarRegionScroller__23e6b{
+  background: transparent;
+}
+
+.layer__960e4{
+  background: transparent;
+}
+
+.visual-refresh .standardSidebarView__23e6b{
+  background: transparent;
+}
+
+.contentRegion__23e6b{
+  background: transparent;
+}
+
+.standardSidebarView__23e6b{
+  background: transparent;
+}
+
+.sidebarRegion__23e6b{
+  background: transparent;
+}
+
+.visual-refresh.standardSidebarView__23e6b {
+    background: transparent !important;
+}
+
+.visual-refresh .contentRegionScroller__23e6b {
+    background: transparent;
+}
+
+.visual-refresh .wrapper_ef3116 {
+    background: transparent;
+}
+
+.visual-refresh .channelTextArea_f75fb0 {
+    background: transparent;
+}
+
+.visual-refresh .chatContent_f75fb0 {
+    background: transparent;
+}
+
+.visual-refresh .root_bfe55a {
+    background: transparent;
+}
+
+.chat_f75fb0 {
+  background: transparent !important;
+}
+
+.visual-refresh .panels_c48ade {
+  background: transparent;
+}
+
+.visual-refresh .privateChannels__35e86 {
+    background: transparent;
+}
 
 .staticButton_f1ceac.centerButton_f1ceac.colorable_f1ceac.red_f1ceac.button__201d5.lookBlank__201d5.colorBrand__201d5{
   scale: 0.9;
@@ -3553,6 +3620,21 @@ settings Sidebar
  */
 body {
   background-color: transparent;
+}
+
+.sidebarList_c48ade.sidebarListRounded_c48ade{
+  background: transparent;
+}
+
+.privateChannels__35e86{
+  background: transparent;
+}
+
+.bg__960e4{
+  background: var(--background) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .appMount__51fd7 {
